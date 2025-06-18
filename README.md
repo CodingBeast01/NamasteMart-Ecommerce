@@ -1,33 +1,32 @@
-# NamasteMart-Ecommerce
-E-Commerce Web Application (JSP + Hibernate) A fully functional e-commerce website built using JSP, Servlets, Hibernate, and MySQL. This project demonstrates core web development concepts including user authentication, product catalog, shopping cart functionality, and order management.
+# 🛒 E-Commerce Website (JSP + Hibernate)
 
+A full-stack e-commerce web application built using **JSP**, **Servlets**, **Hibernate**, and **MySQL**. This project includes all the basic functionalities of an online store, including user registration, product browsing, cart management, and admin control for product updates.
 
-🔧 Tech Stack
-Frontend: HTML5, CSS3, JSP (Java Server Pages), Bootstrap
+---
 
-Backend: Java Servlets, JSP
+## 🔧 Tech Stack
 
-ORM: Hibernate (JPA)
+- **Frontend**: HTML5, CSS3, JSP, Bootstrap
+- **Backend**: Java (JSP/Servlets)
+- **ORM**: Hibernate
+- **Database**: MySQL
+- **Server**: Apache Tomcat
+- **Build Tool**: Maven
 
-Database: MySQL
+---
 
-Build Tool: Maven
+## ✅ Key Features
 
-Server: Apache Tomcat
+- 🔐 User Authentication (Signup/Login)
+- 🛍️ Product Listing with Categories
+- 🔎 Product Search Functionality
+- 🛒 Shopping Cart
+- 📦 Order Checkout and Summary
+- 🛠️ Admin Panel for Product Management
+- 🗂️ Hibernate ORM with DAO layer
+- 💾 MySQL Database Integration
 
+---
 
+## 📁 Project Structure
 
-✅ Features
-User registration and login
-
-Admin panel for product management
-
-Product listing and search
-
-Add to cart and cart management
-
-Checkout process with order summary
-
-Hibernate-based database interaction
-
-Session handling and input validation
