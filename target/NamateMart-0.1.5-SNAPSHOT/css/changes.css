@@ -1,0 +1,238 @@
+/* ===== GLOBAL RESET ===== */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar {
+  margin-bottom: 0;
+  background-color: #1a1a2e;
+  border: 0;
+  font-size: 14px !important;
+  letter-spacing: 4px;
+  opacity: 0.95;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #e6e6e6 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+  color: #71dbf6 !important;
+}
+
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #16213e !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown styling */
+.open .dropdown-toggle {
+  color: #fff !important;
+  background-color: #16213e !important;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu li a {
+  color: #1a1a2e !important;
+  transition: all 0.2s ease;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f8f9fa !important;
+  color: #1e73b4 !important;
+  padding-left: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #ff7aa8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #1e73b4;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Background styling */
+.bg-1 {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e6e6e6;
+  padding: 40px 0;
+}
+
+.bg-1 h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.bg-1 p {
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Products section */
+#products {
+  background-color: #ffffff !important;
+  padding: 40px 0;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background: linear-gradient(135deg, #ff7aa8 0%, #ff5d95 100%);
+  color: #ffffff;
+  border-radius: 0;
+  padding: 80px 0;
+  margin-bottom: 0;
+}
+
+/* Price styling */
+#price {
+  color: #4b93f8;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Product name styling */
+#productname {
+  color: #1a1a2e;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+/* Product info styling */
+#productinfo {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Responsive tab styling */
+.tab {
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  margin: 0 15px;
+  padding: 15px 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .tab {
+      margin: 5px 2%;
+      padding: 10px 15px;
+      font-size: 16px;
+  }
+}
+
+/* Shopping cart notification */
+.icon-blue {
+  color: #1e73b4;
+}
+
+.icon-grey {
+  color: #999;
+}
+
+i {
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.badge:after, .cart:after {
+  content: attr(data-count);
+  position: absolute;
+  background: #1e73b4;
+  height: 24px;
+  top: 5px;
+  right: 5px;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+i.fa::before {
+  font-size: 2.5rem !important;
+  color: #1a1a2e;
+}
+
+/* Product card enhancements */
+.product-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  margin-bottom: 25px;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.product-img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.03);
+}
+
+/* Quick view modal */
+#quickView .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Added some spacing utilities */
+.section-padding {
+  padding: 60px 0;
+}
+
+/* Added smooth transitions */
+a, button {
+  transition: all 0.3s ease;
+}
+
